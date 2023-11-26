@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#meme-generator {
+  display: grid;
+  grid-template-rows: 100px auto;
+  grid-template-columns: auto 300px;
+}
+
+#meme-canvas {
+  width: auto;
+  max-height: 70vh;
+  /* min-height: 100%; */
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.text-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: flex-start;
+}
+
+h2 {
+  grid-column: span 2;
+}
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
